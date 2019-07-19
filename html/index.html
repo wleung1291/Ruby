@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="The best spaghtti recipe I can make.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spaghetti</title>
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+</head>
+<body>
+    <header>
+        <img src="https://assets.aaonline.io/fullstack/html-css/micro-projects/appacademylogo.png"
+            alt="AA logo">
+        <h1>Wilson's Spaghetti Recipe</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#Description">Description</a></li>
+                <li><a href="#Ingredients">Ingredients</a></li>
+                <li><a href="#Cooking Directions">Cooking Directions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <h2 id="Ingredients">Ingredients</h2>
+        <ul>
+            <li>Spaghetti</li>
+            <li>Tomato Sauce</li>
+            <li>Ground Beef</li>
+            <li>Butter</li>
+            <li>Salt</li>
+            <li>Italian herbs and spices</li>
+            <li>broccoli</li>
+        </ul>
+    </aside>
+
+    <section>
+        <h2 id = "Description">Description</h2>
+        <p>Classic recipe for Spaghetti</a></p>
+        <figure>    
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Spaghetti_with_Meatballs_%28cropped%29.jpg"
+                width="15%" >
+                <figcaption>
+                    <a href="https://en.wikipedia.org/wiki/Spaghetti">Spaghetti</a>
+                </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2 id="Cooking Directions">Cooking Directions</h2>
+        <ul>
+            <li>Boil spaghetti for 10 minutes</li>
+            <li>Add tomato sauce</li>
+            <li>Cook ground beef</li>
+            <li>Cook broccoli</li>
+            <li>Season with spices</li>
+        </ul>
+    </section>
+    
+    <section id="reviews">
+        <h2>Review</h2>
+        <form id="review-form">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <br>
+            <label for="rating">Rating</label>
+            1<input type="radio" id="rating" value="1" checked> 
+            2<input type="radio" id="rating" value="2">
+            3<input type="radio" id="rating" value="3">
+            4<input type="radio" id="rating" value="4">
+            5<input type="radio" id="rating" value="5">
+            <br>
+            <label for="expertise">Cooking Expertise</label>
+            <select id="expertise">
+                <option disabled selected>Select Cooking Expertise</option>
+                <option>Sometimes Cook</option>
+                <option>Cook Everyday</option>
+                <option>Cooking is a hobby</option>
+                <option>Professional Chef</option>
+            </select>
+            <label id="review"><br>
+                <textarea>Review</textarea>
+            </label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer><p>Recipe by Wilson</p></footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: 5px solid black;
+
+}
+
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+/* Div grows as child paragraph changes length */
+#third-div {
+  background-color: green;
+  padding: 10px;
+  min-height: 10px;
+  height: auto;
+}
+
+p {
+  background-color: #7fdbff;
+  padding: 5px;
+  margin: 0px;
+}
+
+.image-1-container {
+  background-color: grey;
+  width: 200px;
+  height: 600px;
+
+}
+.image-1-container img {
+  width: 100%;
+}
+
+/* Container for the image. Resizes accordingly to its child. 
+  div elements are blocks and will take up the whole width of the window if you 
+  don't constrain them, so you might want to change them to inline-blocks. */
+.image-2-container{
+  background-color: grey; 
+  min-width: 200px;
+  min-height: 600px;
+  display: inline-block; 
+  width: auto;
+}
+.image-2-container img{
+  width: 210px;
+}
+
+
+
